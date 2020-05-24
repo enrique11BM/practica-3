@@ -1,0 +1,85 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 100%;
+    overflow: hidden;
+    background: url('Imagenes/cod.jpeg') no-repeat top ;
+    background-size: cover;
+}
+@font-face{
+    font-family:'Acme' ;
+    src: url('Fuentes/Bevan-Regular.ttf');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: 'Anton';
+    src: url('Fuentes/Bungee-Regular.ttf');
+    font-weight: bold;
+}
+@font-face{
+    font-family:'Righteous' ;
+    src: url('Fuentes/ComingSoon-Regular.ttf');
+}
+.container {
+    width: 45%;
+    height: 60%;
+    position: relative;
+    top: 7%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.marca{
+    width: fit-content;
+    font-family:Acme ;
+    font-size: 3rem;
+    color:  rgb(114, 153, 8);
+    letter-spacing: 2px;
+}
+.titulo{
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 8px;
+    font-family: Anton;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: .8rem;
+    text-align: left;
+    color:rgb(11, 163, 138);
+}
+.aviso{
+    width: 140%;
+    margin-top: 20px;
+    font-family:Righteous ;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: .2rem;
+    text-align: left;
+    color:white ;
+}
+.cta{
+    position: absolute;
+    bottom: 20%;
+    right: 7%;
+}
+.cta a{
+    border: gray solid;
+    font-family: Squad;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: rgb(120, 141, 140);
+    color: black;
+}
+
+.cta a:hover{
+    color: black;
+    background-color: rgb(42, 116, 48);
+}
